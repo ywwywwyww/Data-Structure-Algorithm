@@ -2,10 +2,13 @@
 #include <cstdio>
 #include <cstring>
 #include "temperature.h"
+#include "temperature.cpp"
 
 using namespace std;
 
 int main() {
+	freopen("5.in","r",stdin);
+	freopen("5.out","w",stdout);
     // in case of defined(NDEBUG), do not write `assert(1 == scanf("%d", &n))'
     int res; // store the return value of `scanf'
     int n;

@@ -8,8 +8,23 @@
 
 　　各种头文件
 
-- utils.h：各种常用小东西，例如 max, swap, (merge) sort
-- pair.h：pair
-- vector.h：vector
-- deque.h：deque
+- utils.h
+  - min(a, b);
+  - max(a, b);
+  - upmin(a, b);
+  - upmax(a, b);
+  - swap(a, b);
+  - less(a, b);
+- algo.h
+  - sort(begin, end, cmp = less);
+  - lower_bound(begin, end, target);
+  - nth_element(begin, nth, end, cmp = less);
+- pair.h
+  - struct pair;
+  - make_pair(first, second);
+  - mp(first, second);
+- vector.h
+  - struct vector;
+- deque.h
+  - struct deque;
 
